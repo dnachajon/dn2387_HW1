@@ -1,0 +1,11 @@
+language: python
+
+python:
+ - "2.7"
+ - "3.4"
+ - "3.5"
+
+script:
+ - python task2/hello.py
+ - python task2/test_task2.py
+ - python task2/test_task2_part3.py
